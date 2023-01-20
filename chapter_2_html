@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Books to read </h1>
+    <p>There ara lots of books to see</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, repellat? Consequuntur, voluptate? Aliquam fugit provident sed consectetur accusamus officiis amet, nobis fugiat officia rem, illo at quisquam et, deserunt ad.</p>
+    <a href="https://codewithharry.com">CLICK HERE TO GO TO WIKIPEDIA></a>
+    <a href="/about.html">Go to about</a>
+    <!-- Image tag -->
+     <b>Messi</b>
+     <i>is goat</i>
+     <u>And always will be</u>
+     <h1><b>Messi</b></h1>
+     <img src="https://c4.wallpaperflare.com/wallpaper/297/678/332/lionel-messi-soccer-photoshop-effects-wallpaper-preview.jpg" alt="Messi Image"width="125px">
+
+     <hr>
+     <h1><b>Ronaldo</b></h1>
+     <img src="http://m.gettywallpapers.com/wp-content/uploads/2020/02/Ronaldo-Wallpaper-for-pc.jpg" alt="Rolnado image" width="180px">
+     <p>CO<sub>2</sub></p></p>
+     <pre>
+     class Simple{  
+        public static void main(String args[]){  
+         System.out.println("Hello Java");  
+        }  
+    }  
+    </pre>
+    
+    <title></title>
+</body>
+</html>
