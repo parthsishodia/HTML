@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        /* * {
+            margin: 0;
+            padding: 0;
+            height: 444px;
+        } */
+
+        li {
+            /* display: inline-block; */
+            list-style:circle outside;
+            color: aliceblue;
+            
+        }
+
+        header {
+            background-color: black;
+            color: aliceblue;
+            height: 70px;
+           
+        }
+
+        p {
+            text-align: center;
+            border: 2px solid red;
+
+        }
+
+        .container {
+            background-color: aqua;
+            height: 75vh;
+            width: 75vw;
+            margin: auto;
+            position: sticky;
+            z-index:0;
+        }
+        ul{
+            background-color: red;
+        }
+        .box {
+            height: 250px;
+            width: 200px;
+            background-color: lightcoral;
+            /* position: relative; */
+            position:absolute;1
+            right: 0px;
+        }
+
+        .box2 {
+            height: 250px;
+            width: 200px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Email</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet commodi assumenda iusto fuga sit repellendus
+            placeat magni quibusdam minima libero pariatur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil tempore ducimus, ex nemo voluptas illum quo provident nulla est. Quibusdam dolores quidem ducimus fugit?</p>
+        <div class="box">
+            I'm a boss.....
+        </div>
+        <div class="box2">
+            Lorem ipsum dolor sit Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo voluptates rerum
+            voluptas animi maxime iste laboriosam excepturi inventore deserunt sapiente sunt, ipsa dicta necessitatibus
+            magni neque omnis aspernatur hic praesentium culpa eaque at temporibus. Modi quas ut cum non minima
+            consectetur quasi possimus temporibus!
+        </div>
+    </div>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Oranges</li>
+    </ul>
+
+</body>
+
+</html>
